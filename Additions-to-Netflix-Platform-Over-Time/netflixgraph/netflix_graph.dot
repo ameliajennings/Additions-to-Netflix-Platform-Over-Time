@@ -1,0 +1,32 @@
+digraph {
+  node [shape=circle, style=filled, fillcolor=gray95];
+  edge [color=gray50];
+  rankdir=LR;
+  0 [label="2008", color=black, shape=circle];
+  1 [label="2009", color=black, shape=circle];
+  2 [label="2010", color=black, shape=circle];
+  3 [label="2011", color=black, shape=circle];
+  4 [label="2012", color=black, shape=circle];
+  5 [label="2013", color=black, shape=circle];
+  6 [label="2014", color=black, shape=circle];
+  7 [label="2015", color=black, shape=circle];
+  8 [label="2016", color=red, shape=circle];
+  9 [label="2017", color=red, shape=circle];
+  10 [label="2018", color=red, shape=circle];
+  11 [label="2019", color=red, shape=circle];
+  12 [label="2020", color=red, shape=circle];
+  13 [label="2021", color=black, shape=diamond];
+  0 -> 1 [label="2"];
+  1 -> 2 [label="1"];
+  2 -> 3 [label="13"];
+  3 -> 4 [label="3"];
+  4 -> 5 [label="11"];
+  5 -> 6 [label="24"];
+  6 -> 7 [label="82"];
+  7 -> 8 [label="429"];
+  8 -> 9 [label="1188"];
+  9 -> 10 [label="1649"];
+  10 -> 11 [label="2016"];
+  11 -> 12 [label="1879"];
+  12 -> 13 [label="1498"];
+}
